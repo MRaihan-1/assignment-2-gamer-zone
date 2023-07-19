@@ -50,3 +50,49 @@ body{
     padding: 10px 20px;
     text-align: center;
 }
+
+.banner-container{
+background-image: url(../images/Group\ 14.png);
+background-repeat: no-repeat;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.banner-text{
+    margin-left: 240px;
+    
+}
+.banner-title{
+    font-size: 48px;
+    font-weight: 500;
+    margin-top: 150px;
+}
+.banner-text h1{
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 100px;
+    display: flex;
+}
+.button{
+gap: 20px;
+}
+.sign-in{
+background: #FF42A5;
+color: white;
+padding: 20px 40px;
+border-radius: 50px;
+border: 0;
+}
+.rogue{
+background: #4EC5F7;
+color: white;
+padding: 20px 40px;
+border-radius: 50px;
+border: 0;
+}
+
+.grp-18-pic{
+    width: 100%;
+}
