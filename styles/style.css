@@ -93,6 +93,46 @@ border-radius: 50px;
 border: 0;
 }
 
+.first-img{
+   
+}
 .grp-18-pic{
     width: 100%;
+}
+
+.we-are-gamer-container{
+display: flex;
+justify-content: space-between;
+background: rgba(255, 66, 165, 0.03);
+}
+.gamer-txt{
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: right;
+}
+.gamer-dscrpt{
+    font-size: 18px;
+    font-weight: 400;
+    color: #534C64;
+    text-align: center;
+}
+
+.on-games-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+}
+.funny-vids{
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 700;
+}
+.on-games-dscrpt{
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
 }
