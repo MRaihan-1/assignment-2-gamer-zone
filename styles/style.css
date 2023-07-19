@@ -10,9 +10,8 @@ body{
     justify-content: space-around;
     width: 1920px;
     height: 130px;
-
-
 }
+
 .logo-container{
     display: flex;
     font-weight: 700;
@@ -173,4 +172,96 @@ align-items: right;
 }
 .merged-images-small{
     margin-top: -200px;
+}
+
+.other-games{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background: rgba(255, 66, 165, 0.03);
+    width: 1920px;
+    height: 430px;
+}
+.action{
+    display: flex;
+    border-radius: 50px;
+    font-weight: 700;
+    background: white;
+    width: 240px;
+    height: 80px;
+    align-items: center;   
+}
+.advntr{
+    display: flex;
+    border-radius: 50px;
+    font-weight: 700;
+    background: white;
+    width: 240px;
+    height: 80px;
+    align-items: center; 
+}
+.arcade{
+    display: flex;
+    border-radius: 50px;
+    font-weight: 700;
+    background: white;
+    width: 240px;
+    height: 80px;
+    align-items: center; 
+}
+.edu{
+    display: flex;
+    border-radius: 50px;
+    font-weight: 700;
+    background: white;
+    width: 240px;
+    height: 80px;
+    align-items: center;
+}
+.word{
+    display: flex;
+    border-radius: 50px;
+    font-weight: 700;
+    background: white;
+    width: 240px;
+    height: 80px;
+    align-items: center;
+}
+.role{
+    display: flex;
+    border-radius: 50px;
+    font-weight: 700;
+    background: white;
+    width: 240px;
+    height: 80px;
+    align-items: center;
+}
+.audio{
+    display: flex;
+    border-radius: 50px;
+    font-weight: 700;
+    background: white;
+    width: 240px;
+    height: 80px;
+    align-items: center;
+}
+.puzzle{
+    display: flex;
+    border-radius: 50px;
+    font-weight: 700;
+    background: white;
+    width: 240px;
+    height: 80px;
+    align-items: center;
+}
+.strategy{
+     display: flex;
+    border-radius: 50px;
+    font-weight: 700;
+    background: white;
+    width: 240px;
+    height: 80px;
+    align-items: center;
 }
