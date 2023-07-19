@@ -7,10 +7,10 @@ body{
 .nav-container{
     
     display: flex;
-    align-items: center;
+    justify-content: space-around;
     width: 1920px;
     height: 130px;
-    margin: 0 auto;
+
 
 }
 .logo-container{
@@ -143,4 +143,34 @@ background: rgba(255, 66, 165, 0.03);
     align-items: center;
     justify-content: space-between;
     margin-left: 40px;
+}
+
+
+.dual-img-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dual-container{
+
+margin-left: 120px;
+
+}
+.dual-title{
+    color: #F948B2;
+}
+.dual-dscrpt{
+    align-items: center;
+    margin-left: 120px;
+}
+.merged-imgs-container{
+align-items: right;
+
+}
+.merged-images-big{
+    width: 635px;
+    height: 650px;
+}
+.merged-images-small{
+    margin-top: -200px;
 }
