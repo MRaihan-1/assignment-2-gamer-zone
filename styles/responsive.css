@@ -15,4 +15,13 @@ width: 100%;
         flex-direction: column;
         margin-top: 90px;
     }
+
+    .on-games-title{
+        flex-direction: column;
+    }
+    .online-games-imgs-container{
+        flex-direction: column;
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

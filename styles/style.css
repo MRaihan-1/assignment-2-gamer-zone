@@ -136,3 +136,11 @@ background: rgba(255, 66, 165, 0.03);
     text-align: center;
     font-size: 18px;
 }
+
+.online-games-imgs-container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+}
